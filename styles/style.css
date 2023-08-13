@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+/* main container css */
+.container{
+    width: 100vw;
+    height: 120vh;
+    overflow:hidden ;
+    background-image: url('../images/background.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 0.5rem solid #64615F;
+}
+/*            image of logo            */
+#logo_image{
+    display: inline-block;
+    width: 15vw;
+    height:13vh;
+    position: absolute;
+    top: 3%;
+    left: 7%;
+}
+/*             sign in button           */
+.sign_in{
+    display:inline-block;
+    color: white;
+    width: 6%;
+    height: 6%;
+    font-size: 20px;
+    border-radius: 4px;
+    overflow:hidden;
+    background-color: #E50914;
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    border: 0px;
+    padding: 2px;
+}
+#select{
+    width: 10%;
+    height: 6%;
+    border: .5px solid white;
+    border-radius: 4px;
+    position: absolute;
+    top:5%;
+    left: 72%;
+    padding: 2px;
+    font-size:15px;
+}
+/*           all buttons  */
+.button{
+    display:inline-block;
+    background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    width: auto;
+}
+.white{
+    color: white;
+    scale:auto;
+}
+.center_text{
+    font-size: 46px;
+    font-weight:900;
+    font-family: Arial,'Arial Narrow Bold';
+    position: absolute;
+    top: 50%;
+    left: 13%;
+}
+.text{
+    font-size: 24px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight:100;
+    font-family: Arial,'Arial Narrow Bold';
+    position: absolute;
+    top: 65%;
+    left: 35%;
+}
+.left_20{
+    position: absolute;
+    left: 23%;
+    font-size: 20px;
+}
+.mailid{
+    width: 32%;
+    height: 10%;
+    background-color: transparent;
+    position: absolute;
+    top: 81%;
+    left: 28%;
+    border-radius: 5px;
+    font-size: 25px;
+}
+textarea::placeholder{
+    font-size: 20px;
+    padding-top: 7px;
+    color: rgb(147, 146, 146);
+}
+.get_started{
+    display:inline-block;
+    color: white;
+    width:14%;
+    height: 10%;
+    border-radius: 4px;
+    overflow:hidden;
+    background-color: #E50914;
+    position: absolute;
+    top: 81%;
+    left: 62%;
+}
+#get_started_text{
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
+.button_1{
+    width:100%;
+    background-color: transparent;
+    height: 100%;
+    border: 0px;
+    border-radius: 4px;
+}
+section{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    border-bottom: 0.5rem solid #64615F;
+}
+.enjoy_text{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Arial, 'Arial Narrow Bold';
+    display: inline-block;
+    position: relative;
+    top: 30vh;
+    left: 5vw;
+}
+.enjoy_below_text{
+    font-size: 24px;
+    /* word-spacing: 2px; */
+    letter-spacing: 1px;
+    font-weight:100;
+    position: relative;
+    width: 40%;
+    top: 38vh;
+    left: 5vw;
+}
+#tv{
+    display: inline-block;
+    position:relative;
+    top: -6%;
+    left:45%;
+    width: 40%;
+    height: 50%;
+}
+#tv_image{
+    width: 100%;
+    height: auto;
+    display:inline-block;
+    position: relative;
+    top: -100%;
+    left: 20%;
+}
+#video{
+    width: 74%;
+    height:auto;
+    display: inline-block;
+    position:relative;
+    left: 32%;
+    top: 3%;
+}
+.text_container_1{
+    display:inline-block;
+    width: 50%;
+}
+.download_text{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 900;
+    width: 100%;
+    font-family: Arial, 'Arial Narrow Bold';
+    position: relative;
+    top:-60vh;
+    left: 50vw;
+}
+.download_below_text{
+    width: 80%;
+    display: inline-block;
+    font-size: 24px;
+    /* word-spacing: 2px; */
+    letter-spacing: 1px;
+    font-weight:100;
+    position: relative;
+    top:-50vh;
+    left: 50vw;
+}
+#mobile_image{
+    display:inline-block;
+    width: 40%;
+    height: 70%;
+    position: relative;
+    left: 5%;
+}
+#stranger_video{
+    display:inline-block;
+    width:70%;
+    height:20%;
+    position: relative;
+    right: 10%;
+    top: 0%;
+}
+.text_container_2{
+    display:inline-block;
+    width: 45%;
+    position: relative;
+    right:40vw;;
+    top:40vh;
+}
+.list_container{
+    width: 30%;
+    display: inline-block;
+}
+.list{
+    list-style-type: none;
+    font-size: 14px;
+    text-decoration: underline;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    padding: 1rem;
+    line-height: 2rem;
+    margin-left: 30%;
+}
+.india{
+    /* margin-top: 5%; */
+    margin-left: 10%;
+}
